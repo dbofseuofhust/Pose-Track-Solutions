@@ -3,5 +3,4 @@ python ../tools/test.py --cfg /share/db/Pose-Estimation-Baseline/Tiger2019/coco/
 
 # for hrnet
 # python ../tools/test.py --cfg /share/db/Pose-Estimation-Baseline/Tiger2019/coco/hrnet/w48_384x288_dilated.yaml
-# python ../tools/test.py --cfg /share/db/Pose-Estimation-Baseline/Tiger2019/coco/hrnet/w48_384x288_sa.yaml
 # python ../tools/test.py --cfg /share/db/Pose-Estimation-Baseline/Tiger2019/coco/hrnet/w48_384x288_sge.yaml
