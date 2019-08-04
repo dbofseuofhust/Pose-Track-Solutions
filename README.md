@@ -75,7 +75,7 @@ The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed. 
    ```
    
 ### Data preparation
-**For Tiger2019 data**, please make them look like this:
+**For CVWC 2019 Tiger Pose Track data**, please make them look like this:
 ```
 ${POSE_ROOT}
 |-- Tiger2019
