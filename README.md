@@ -94,7 +94,7 @@ ${POSE_ROOT}
             |-- 001163.jpg
             |-- 003072.jpg
 ```
-you can get our handled json files from dir pose/annotations, and then put them in dir 'pose/annotations/' like this:
+you can get our handled json files from dir 'pose/annotations', and then put them in dir 'pose/annotations/' like this:
 ```
 pose/annotations/tiger_keypoints_train.json
 ```
@@ -104,7 +104,8 @@ pose/annotations/tiger_keypoints_train.json
 bash train.sh or . ./train.sh
 ```
 
-#### Testing on Tiger pose dataset using model zoo's models([Baidu]：(https://pan.baidu.com/s/15r5aL6j94R0Nc0rWNnDO8Q)) extract code：r916
+#### Testing on Tiger pose dataset using model zoo's models here
+([BaiduDrive](https://pan.baidu.com/s/15r5aL6j94R0Nc0rWNnDO8Q)) (Extract Code: r916)
 download our trained model and put it in dir '/share/db/Pose-Estimation-Baseline/Tiger2019/work_dir' like this:
 ```
 /share/db/Pose-Estimation-Baseline/Tiger2019/work_dir/unetplus_r152_256x192/tiger/pose_unetplus/res152_384x288_d256x3_adam_lr1e-3/model_best.pth
